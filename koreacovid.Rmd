@@ -78,5 +78,7 @@ fisher.test(table1)
 ```
 
 
+After running these texts we found that the b value is 0.0009 which is far lower than 0.05 and based on these results we can say that males are almost more than twice as likely to die from covid than females.
+
 ## Conclusions
 
