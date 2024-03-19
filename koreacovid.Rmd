@@ -67,6 +67,8 @@ colPerc(table1)
 ```
 
 
+the numerical data proves that more women have gotten covid than men but more men have died from covid.
+
 ## Inferential results 
 
 
