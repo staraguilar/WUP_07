@@ -82,3 +82,5 @@ After running these texts we found that the b value is 0.0009 which is far lower
 
 ## Conclusions
 
+
+when we look at the problem we can determine that it is a cat-cat problem as we are comparing to categorical data types which are sex(male - female) and the status f the patient which is either alive or dead. After showing the graphical data that compares males and females contracting and dying from covid. we can conclude that more females got covid forever more males died from covid.
