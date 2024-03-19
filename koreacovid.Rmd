@@ -54,7 +54,7 @@ basicCC + geom_bar(stat="identity", position = "dodge")
   
 
 
-
+by looking at the 2 graphs it shows that more women have gotten covid than men but more men have died than women.
 
 
   
