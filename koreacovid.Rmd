@@ -37,7 +37,20 @@ based on the description the problem can be solved wit the cat-cat rmd file beca
 ## Graphical results - use ggplot commands to do this  
 
 
+```{r}
+dd2 <- kRdata %>% group_by(result,sex) %>% summarize(count=n()) %>% mutate(prcnt=count/sum(count))
 
+
+# the group_by followed by summarize(count=n())
+
+basicC <- ggplot(dd2,aes(x=result,y=count,fill=sex))
+basicC + geom_bar(stat="identity",position="dodge")
+
+#Now for percentage plot
+
+basicCC <- ggplot(dd2,aes(x=result,y=prcnt*100,fill=sex)) 
+basicCC + geom_bar(stat="identity", position = "dodge")
+```
   
 
 
